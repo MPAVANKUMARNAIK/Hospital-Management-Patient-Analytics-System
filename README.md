@@ -1,18 +1,18 @@
-# 🏥 Hospital Management & Patient Analytics System
+#  Hospital Management & Patient Analytics System
 
 A SQL-based project designed to manage hospital records and perform data analytics on patient treatments, doctor performance, and hospital operations.
 This system helps hospitals efficiently store data and extract meaningful insights.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Hospitals need efficient systems to manage patient records and analyze treatment data.
 This project solves that by creating a structured database and performing analytical queries.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Design a database to store patient, doctor, and treatment data
 * Perform analysis on hospital operations
@@ -20,29 +20,29 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🗄️ Database Tables
+##  Database Tables
 
-### 🧑 Patients
+###  Patients
 
 * patient_id
 * name
 * age
 * gender
 
-### 👨‍⚕️ Doctors
+###  Doctors
 
 * doctor_id
 * name
 * specialization
 
-### 📅 Appointments
+###  Appointments
 
 * appointment_id
 * patient_id
 * doctor_id
 * date
 
-### 💊 Treatments
+###  Treatments
 
 * treatment_id
 * patient_id
@@ -51,7 +51,7 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🧠 Key Tasks
+##  Key Tasks
 
 ✔ Find most consulted doctors
 ✔ Calculate total revenue per month
@@ -61,21 +61,21 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🖼️ Project Screenshots
+##  Project Screenshots
 
-### 🔹 Database Schema / Tables
+###  Database Schema / Tables
 
 ![Schema](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162321.png?raw=true)
 
-👉 Shows the structure of tables including Patients, Doctors, Appointments, and Treatments.
+ Shows the structure of tables including Patients, Doctors, Appointments, and Treatments.
 
 ---
 
-### 🔹 SQL Query Execution
+###  SQL Query Execution
 
 ![Query](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162338.png?raw=true)
 
-👉 Example queries used to extract insights such as revenue, most visited doctors, and disease trends.
+ Example queries used to extract insights such as revenue, most visited doctors, and disease trends.
 
 ---
 
@@ -83,7 +83,7 @@ This project solves that by creating a structured database and performing analyt
 
 ![Analytics](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162413.png?raw=true)
 
-👉 Displays analyzed results like monthly revenue, patient frequency, and doctor performance.
+ Displays analyzed results like monthly revenue, patient frequency, and doctor performance.
 
 ---
 
@@ -97,7 +97,7 @@ This project solves that by creating a structured database and performing analyt
 
 
 
-## 📊 Expected Outcome
+##  Expected Outcome
 
 * Efficient hospital data management
 * Insightful analytics for decision-making
@@ -105,7 +105,7 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Dashboard using Power BI / Tableau
 * Integration with web application
@@ -117,12 +117,12 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Meghavath Pavan Kumar Naik**
