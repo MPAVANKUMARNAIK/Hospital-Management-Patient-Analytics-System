@@ -114,9 +114,6 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork and improve the project.
 
 ---
 
