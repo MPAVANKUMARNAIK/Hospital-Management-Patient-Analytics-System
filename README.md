@@ -65,7 +65,7 @@ This project solves that by creating a structured database and performing analyt
 
 ### 🔹 Database Schema / Tables
 
-![Schema](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/main/images/schema.png?raw=true)
+![Schema](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162321.png?raw=true)
 
 👉 Shows the structure of tables including Patients, Doctors, Appointments, and Treatments.
 
@@ -73,7 +73,7 @@ This project solves that by creating a structured database and performing analyt
 
 ### 🔹 SQL Query Execution
 
-![Query](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/main/images/query.png?raw=true)
+![Query](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162338.png?raw=true)
 
 👉 Example queries used to extract insights such as revenue, most visited doctors, and disease trends.
 
@@ -81,7 +81,7 @@ This project solves that by creating a structured database and performing analyt
 
 ### 🔹 Analytics Output
 
-![Analytics](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/main/images/analytics.png?raw=true)
+![Analytics](https://github.com/MPAVANKUMARNAIK/Hospital-Management-Patient-Analytics-System/blob/17c35800ee172896ff4089874a8a9f7c8b290d89/images/Screenshot%202026-04-23%20162413.png?raw=true)
 
 👉 Displays analyzed results like monthly revenue, patient frequency, and doctor performance.
 
@@ -95,53 +95,7 @@ This project solves that by creating a structured database and performing analyt
 
 ---
 
-## 🏗️ Project Structure
 
-```id="wqkqfc"
-Hospital-Management-Patient-Analytics-System/
-│
-├── SQL Scripts/
-├── images/
-│   ├── schema.png
-│   ├── query.png
-│   ├── analytics.png
-├── README.md
-```
-
----
-
-## 🚀 How to Run
-
-```sql id="t7n0nt"
--- Create Database
-CREATE DATABASE hospital_db;
-
--- Use Database
-USE hospital_db;
-
--- Run SQL scripts
--- (tables + insert + queries)
-```
-
----
-
-## 💡 Sample Queries
-
-```sql id="g6k6kq"
--- Most consulted doctors
-SELECT doctor_id, COUNT(*) AS total_visits
-FROM appointments
-GROUP BY doctor_id
-ORDER BY total_visits DESC;
-
--- Monthly revenue
-SELECT MONTH(date) AS month, SUM(cost) AS revenue
-FROM treatments t
-JOIN appointments a ON t.patient_id = a.patient_id
-GROUP BY month;
-```
-
----
 
 ## 📊 Expected Outcome
 
@@ -174,4 +128,4 @@ This project is open-source under the MIT License.
 
 ## 👨‍💻 Author
 
-**Pavan Kumar Naik**
+**Meghavath Pavan Kumar Naik**
